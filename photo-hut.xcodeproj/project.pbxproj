@@ -41,7 +41,6 @@
 		646D31E5243A2EE500BCD349 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E3243A2EE500BCD349 /* ProductCell.swift */; };
 		646D31E6243A2EE500BCD349 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E3243A2EE500BCD349 /* ProductCell.swift */; };
 		646D31E7243A2EE500BCD349 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31E4243A2EE500BCD349 /* ProductCell.xib */; };
-		646D31E8243A2EE500BCD349 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31E4243A2EE500BCD349 /* ProductCell.xib */; };
 		646D31EB243A2F0A00BCD349 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E9243A2F0A00BCD349 /* CartItemCell.swift */; };
 		646D31ED243A2F0A00BCD349 /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31EA243A2F0A00BCD349 /* CartItemCell.xib */; };
 		646D31F0243A2F3500BCD349 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31EF243A2F3500BCD349 /* RoundedViews.swift */; };
@@ -65,6 +64,7 @@
 		646D320B243A3B3000BCD349 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31CF243A2D4E00BCD349 /* ProductDetailVC.swift */; };
 		646D320C243A3B5700BCD349 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D3189243A283600BCD349 /* HomeVC.swift */; };
 		646D320D243A3B6100BCD349 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31D9243A2DB400BCD349 /* ProductsVC.swift */; };
+		646D320E243A46B800BCD349 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31E4243A2EE500BCD349 /* ProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -432,8 +432,8 @@
 			files = (
 				646D31AD243A2A8400BCD349 /* LaunchScreen.storyboard in Resources */,
 				646D31AA243A2A8400BCD349 /* Assets.xcassets in Resources */,
-				646D31E8243A2EE500BCD349 /* ProductCell.xib in Resources */,
 				646D31A8243A2A8100BCD349 /* Main.storyboard in Resources */,
+				646D320E243A46B800BCD349 /* ProductCell.xib in Resources */,
 				646D31E2243A2ECC00BCD349 /* CategoryCell.xib in Resources */,
 				646D3207243A337B00BCD349 /* GoogleService-Info.plist in Resources */,
 			);
