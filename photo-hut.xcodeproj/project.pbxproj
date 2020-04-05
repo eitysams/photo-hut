@@ -8,24 +8,115 @@
 
 /* Begin PBXBuildFile section */
 		646D3188243A283600BCD349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D3187243A283600BCD349 /* AppDelegate.swift */; };
-		646D318A243A283600BCD349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D3189243A283600BCD349 /* ViewController.swift */; };
+		646D318A243A283600BCD349 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D3189243A283600BCD349 /* HomeVC.swift */; };
 		646D318D243A283600BCD349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D318B243A283600BCD349 /* Main.storyboard */; };
-		646D318F243A283C00BCD349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646D318E243A283C00BCD349 /* Assets.xcassets */; };
 		646D3192243A283C00BCD349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D3190243A283C00BCD349 /* LaunchScreen.storyboard */; };
+		646D31A3243A2A8100BCD349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31A2243A2A8100BCD349 /* AppDelegate.swift */; };
+		646D31A5243A2A8100BCD349 /* AdminHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31A4243A2A8100BCD349 /* AdminHomeVC.swift */; };
+		646D31A8243A2A8100BCD349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D31A6243A2A8100BCD349 /* Main.storyboard */; };
+		646D31AA243A2A8400BCD349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646D31A9243A2A8400BCD349 /* Assets.xcassets */; };
+		646D31AD243A2A8400BCD349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D31AB243A2A8400BCD349 /* LaunchScreen.storyboard */; };
+		646D31B3243A2AC200BCD349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646D31A9243A2A8400BCD349 /* Assets.xcassets */; };
+		646D31C0243A2C2300BCD349 /* AdminProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31BF243A2C2300BCD349 /* AdminProductsVC.swift */; };
+		646D31C2243A2C4700BCD349 /* AddEditCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31C1243A2C4700BCD349 /* AddEditCategoryVC.swift */; };
+		646D31C4243A2C7100BCD349 /* AddEditProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31C3243A2C7100BCD349 /* AddEditProductsVC.swift */; };
+		646D31C6243A2CC400BCD349 /* StripeCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31C5243A2CC400BCD349 /* StripeCart.swift */; };
+		646D31C8243A2CE200BCD349 /* StripeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31C7243A2CE200BCD349 /* StripeApi.swift */; };
+		646D31CA243A2CF800BCD349 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31C9243A2CF800BCD349 /* UserService.swift */; };
+		646D31CD243A2D2000BCD349 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31CB243A2D2000BCD349 /* ForgotPasswordVC.swift */; };
+		646D31CE243A2D2000BCD349 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31CC243A2D2000BCD349 /* ForgotPasswordVC.xib */; };
+		646D31D1243A2D4E00BCD349 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31CF243A2D4E00BCD349 /* ProductDetailVC.swift */; };
+		646D31D2243A2D4E00BCD349 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31D0243A2D4E00BCD349 /* ProductDetailVC.xib */; };
+		646D31D4243A2D6A00BCD349 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31D3243A2D6A00BCD349 /* LoginVC.swift */; };
+		646D31D6243A2D8400BCD349 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31D5243A2D8400BCD349 /* RegisterVC.swift */; };
+		646D31D8243A2D9900BCD349 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31D7243A2D9900BCD349 /* CheckoutVC.swift */; };
+		646D31DA243A2DB400BCD349 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31D9243A2DB400BCD349 /* ProductsVC.swift */; };
+		646D31DC243A2E4B00BCD349 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D31DB243A2E4B00BCD349 /* LoginStoryboard.storyboard */; };
+		646D31DF243A2ECC00BCD349 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31DD243A2ECC00BCD349 /* CategoryCell.swift */; };
+		646D31E0243A2ECC00BCD349 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31DD243A2ECC00BCD349 /* CategoryCell.swift */; };
+		646D31E1243A2ECC00BCD349 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31DE243A2ECC00BCD349 /* CategoryCell.xib */; };
+		646D31E2243A2ECC00BCD349 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31DE243A2ECC00BCD349 /* CategoryCell.xib */; };
+		646D31E5243A2EE500BCD349 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E3243A2EE500BCD349 /* ProductCell.swift */; };
+		646D31E6243A2EE500BCD349 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E3243A2EE500BCD349 /* ProductCell.swift */; };
+		646D31E7243A2EE500BCD349 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31E4243A2EE500BCD349 /* ProductCell.xib */; };
+		646D31E8243A2EE500BCD349 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31E4243A2EE500BCD349 /* ProductCell.xib */; };
+		646D31EB243A2F0A00BCD349 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E9243A2F0A00BCD349 /* CartItemCell.swift */; };
+		646D31EC243A2F0A00BCD349 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31E9243A2F0A00BCD349 /* CartItemCell.swift */; };
+		646D31ED243A2F0A00BCD349 /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31EA243A2F0A00BCD349 /* CartItemCell.xib */; };
+		646D31EE243A2F0A00BCD349 /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646D31EA243A2F0A00BCD349 /* CartItemCell.xib */; };
+		646D31F0243A2F3500BCD349 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31EF243A2F3500BCD349 /* RoundedViews.swift */; };
+		646D31F1243A2F3500BCD349 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31EF243A2F3500BCD349 /* RoundedViews.swift */; };
+		646D31F3243A2F5000BCD349 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31F2243A2F5000BCD349 /* Category.swift */; };
+		646D31F4243A2F5000BCD349 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31F2243A2F5000BCD349 /* Category.swift */; };
+		646D31F6243A2F6100BCD349 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31F5243A2F6100BCD349 /* Product.swift */; };
+		646D31F7243A2F6100BCD349 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31F5243A2F6100BCD349 /* Product.swift */; };
+		646D31F9243A2F6C00BCD349 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31F8243A2F6C00BCD349 /* User.swift */; };
+		646D31FA243A2F6C00BCD349 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31F8243A2F6C00BCD349 /* User.swift */; };
+		646D31FC243A2FA500BCD349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31FB243A2FA500BCD349 /* Extensions.swift */; };
+		646D31FD243A2FA500BCD349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31FB243A2FA500BCD349 /* Extensions.swift */; };
+		646D31FF243A2FB600BCD349 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31FE243A2FB600BCD349 /* Constants.swift */; };
+		646D3200243A2FB600BCD349 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D31FE243A2FB600BCD349 /* Constants.swift */; };
+		646D3202243A2FD100BCD349 /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D3201243A2FD100BCD349 /* Firebase+Utils.swift */; };
+		646D3203243A2FD100BCD349 /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D3201243A2FD100BCD349 /* Firebase+Utils.swift */; };
+		646D3205243A336800BCD349 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 646D3204243A336700BCD349 /* GoogleService-Info.plist */; };
+		646D3207243A337B00BCD349 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 646D3206243A337B00BCD349 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		646D3184243A283600BCD349 /* photo-hut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-hut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646D3187243A283600BCD349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		646D3189243A283600BCD349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		646D3189243A283600BCD349 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		646D318C243A283600BCD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		646D318E243A283C00BCD349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		646D3191243A283C00BCD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		646D3193243A283C00BCD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646D31A0243A2A8100BCD349 /* photo-hut-admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-hut-admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646D31A2243A2A8100BCD349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		646D31A4243A2A8100BCD349 /* AdminHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeVC.swift; sourceTree = "<group>"; };
+		646D31A7243A2A8100BCD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		646D31A9243A2A8400BCD349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		646D31AC243A2A8400BCD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		646D31AE243A2A8400BCD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646D31BF243A2C2300BCD349 /* AdminProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductsVC.swift; sourceTree = "<group>"; };
+		646D31C1243A2C4700BCD349 /* AddEditCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCategoryVC.swift; sourceTree = "<group>"; };
+		646D31C3243A2C7100BCD349 /* AddEditProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditProductsVC.swift; sourceTree = "<group>"; };
+		646D31C5243A2CC400BCD349 /* StripeCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeCart.swift; sourceTree = "<group>"; };
+		646D31C7243A2CE200BCD349 /* StripeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeApi.swift; sourceTree = "<group>"; };
+		646D31C9243A2CF800BCD349 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		646D31CB243A2D2000BCD349 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		646D31CC243A2D2000BCD349 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		646D31CF243A2D4E00BCD349 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		646D31D0243A2D4E00BCD349 /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
+		646D31D3243A2D6A00BCD349 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		646D31D5243A2D8400BCD349 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		646D31D7243A2D9900BCD349 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		646D31D9243A2DB400BCD349 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		646D31DB243A2E4B00BCD349 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		646D31DD243A2ECC00BCD349 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		646D31DE243A2ECC00BCD349 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		646D31E3243A2EE500BCD349 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		646D31E4243A2EE500BCD349 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		646D31E9243A2F0A00BCD349 /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		646D31EA243A2F0A00BCD349 /* CartItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
+		646D31EF243A2F3500BCD349 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		646D31F2243A2F5000BCD349 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		646D31F5243A2F6100BCD349 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		646D31F8243A2F6C00BCD349 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		646D31FB243A2FA500BCD349 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		646D31FE243A2FB600BCD349 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		646D3201243A2FD100BCD349 /* Firebase+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
+		646D3204243A336700BCD349 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "photo-hut-admin/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		646D3206243A337B00BCD349 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		646D3181243A283600BCD349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646D319D243A2A8100BCD349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +129,9 @@
 		646D317B243A283600BCD349 = {
 			isa = PBXGroup;
 			children = (
+				646D31B2243A2AA500BCD349 /* shared */,
 				646D3186243A283600BCD349 /* photo-hut */,
+				646D31A1243A2A8100BCD349 /* photo-hut-admin */,
 				646D3185243A283600BCD349 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				646D3184243A283600BCD349 /* photo-hut.app */,
+				646D31A0243A2A8100BCD349 /* photo-hut-admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +148,151 @@
 		646D3186243A283600BCD349 /* photo-hut */ = {
 			isa = PBXGroup;
 			children = (
-				646D3187243A283600BCD349 /* AppDelegate.swift */,
-				646D3189243A283600BCD349 /* ViewController.swift */,
-				646D318B243A283600BCD349 /* Main.storyboard */,
-				646D318E243A283C00BCD349 /* Assets.xcassets */,
-				646D3190243A283C00BCD349 /* LaunchScreen.storyboard */,
+				646D31BD243A2B5D00BCD349 /* Stripe */,
+				646D31BC243A2B4D00BCD349 /* Services */,
+				646D31BB243A2B4100BCD349 /* XIBs */,
+				646D31BA243A2B3700BCD349 /* View */,
+				646D31B9243A2B2900BCD349 /* Controller */,
+				646D31B8243A2B1600BCD349 /* Storyboards */,
 				646D3193243A283C00BCD349 /* Info.plist */,
+				646D3204243A336700BCD349 /* GoogleService-Info.plist */,
 			);
 			path = "photo-hut";
+			sourceTree = "<group>";
+		};
+		646D31A1243A2A8100BCD349 /* photo-hut-admin */ = {
+			isa = PBXGroup;
+			children = (
+				646D31BE243A2B6C00BCD349 /* Controller */,
+				646D31A6243A2A8100BCD349 /* Main.storyboard */,
+				646D31AB243A2A8400BCD349 /* LaunchScreen.storyboard */,
+				646D31AE243A2A8400BCD349 /* Info.plist */,
+				646D3206243A337B00BCD349 /* GoogleService-Info.plist */,
+			);
+			path = "photo-hut-admin";
+			sourceTree = "<group>";
+		};
+		646D31B2243A2AA500BCD349 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				646D31B7243A2AF800BCD349 /* Xibs */,
+				646D31B6243A2AEF00BCD349 /* Model */,
+				646D31B5243A2AE300BCD349 /* View */,
+				646D31B4243A2AD200BCD349 /* Utils */,
+				646D31A9243A2A8400BCD349 /* Assets.xcassets */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		646D31B4243A2AD200BCD349 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				646D31FB243A2FA500BCD349 /* Extensions.swift */,
+				646D31FE243A2FB600BCD349 /* Constants.swift */,
+				646D3201243A2FD100BCD349 /* Firebase+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		646D31B5243A2AE300BCD349 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				646D31EF243A2F3500BCD349 /* RoundedViews.swift */,
+				646D31DD243A2ECC00BCD349 /* CategoryCell.swift */,
+				646D31E3243A2EE500BCD349 /* ProductCell.swift */,
+				646D31E9243A2F0A00BCD349 /* CartItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646D31B6243A2AEF00BCD349 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				646D31F2243A2F5000BCD349 /* Category.swift */,
+				646D31F5243A2F6100BCD349 /* Product.swift */,
+				646D31F8243A2F6C00BCD349 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		646D31B7243A2AF800BCD349 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				646D31DE243A2ECC00BCD349 /* CategoryCell.xib */,
+				646D31E4243A2EE500BCD349 /* ProductCell.xib */,
+				646D31EA243A2F0A00BCD349 /* CartItemCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		646D31B8243A2B1600BCD349 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				646D31DB243A2E4B00BCD349 /* LoginStoryboard.storyboard */,
+				646D318B243A283600BCD349 /* Main.storyboard */,
+				646D3190243A283C00BCD349 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		646D31B9243A2B2900BCD349 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				646D31D3243A2D6A00BCD349 /* LoginVC.swift */,
+				646D31D5243A2D8400BCD349 /* RegisterVC.swift */,
+				646D3189243A283600BCD349 /* HomeVC.swift */,
+				646D31D9243A2DB400BCD349 /* ProductsVC.swift */,
+				646D3187243A283600BCD349 /* AppDelegate.swift */,
+				646D31D7243A2D9900BCD349 /* CheckoutVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		646D31BA243A2B3700BCD349 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646D31BB243A2B4100BCD349 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				646D31CB243A2D2000BCD349 /* ForgotPasswordVC.swift */,
+				646D31CC243A2D2000BCD349 /* ForgotPasswordVC.xib */,
+				646D31CF243A2D4E00BCD349 /* ProductDetailVC.swift */,
+				646D31D0243A2D4E00BCD349 /* ProductDetailVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		646D31BC243A2B4D00BCD349 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				646D31C9243A2CF800BCD349 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		646D31BD243A2B5D00BCD349 /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				646D31C5243A2CC400BCD349 /* StripeCart.swift */,
+				646D31C7243A2CE200BCD349 /* StripeApi.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		646D31BE243A2B6C00BCD349 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				646D31A4243A2A8100BCD349 /* AdminHomeVC.swift */,
+				646D31BF243A2C2300BCD349 /* AdminProductsVC.swift */,
+				646D31C1243A2C4700BCD349 /* AddEditCategoryVC.swift */,
+				646D31C3243A2C7100BCD349 /* AddEditProductsVC.swift */,
+				646D31A2243A2A8100BCD349 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +315,23 @@
 			productReference = 646D3184243A283600BCD349 /* photo-hut.app */;
 			productType = "com.apple.product-type.application";
 		};
+		646D319F243A2A8100BCD349 /* photo-hut-admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646D31AF243A2A8400BCD349 /* Build configuration list for PBXNativeTarget "photo-hut-admin" */;
+			buildPhases = (
+				646D319C243A2A8100BCD349 /* Sources */,
+				646D319D243A2A8100BCD349 /* Frameworks */,
+				646D319E243A2A8100BCD349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "photo-hut-admin";
+			productName = "photo-hut-admin";
+			productReference = 646D31A0243A2A8100BCD349 /* photo-hut-admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +343,9 @@
 				ORGANIZATIONNAME = hredoy;
 				TargetAttributes = {
 					646D3183243A283600BCD349 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					646D319F243A2A8100BCD349 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +364,7 @@
 			projectRoot = "";
 			targets = (
 				646D3183243A283600BCD349 /* photo-hut */,
+				646D319F243A2A8100BCD349 /* photo-hut-admin */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +375,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				646D3192243A283C00BCD349 /* LaunchScreen.storyboard in Resources */,
-				646D318F243A283C00BCD349 /* Assets.xcassets in Resources */,
+				646D31E7243A2EE500BCD349 /* ProductCell.xib in Resources */,
+				646D31E1243A2ECC00BCD349 /* CategoryCell.xib in Resources */,
+				646D31B3243A2AC200BCD349 /* Assets.xcassets in Resources */,
+				646D31ED243A2F0A00BCD349 /* CartItemCell.xib in Resources */,
+				646D31CE243A2D2000BCD349 /* ForgotPasswordVC.xib in Resources */,
+				646D31DC243A2E4B00BCD349 /* LoginStoryboard.storyboard in Resources */,
+				646D3205243A336800BCD349 /* GoogleService-Info.plist in Resources */,
+				646D31D2243A2D4E00BCD349 /* ProductDetailVC.xib in Resources */,
 				646D318D243A283600BCD349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646D319E243A2A8100BCD349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646D31AD243A2A8400BCD349 /* LaunchScreen.storyboard in Resources */,
+				646D31AA243A2A8400BCD349 /* Assets.xcassets in Resources */,
+				646D31E8243A2EE500BCD349 /* ProductCell.xib in Resources */,
+				646D31A8243A2A8100BCD349 /* Main.storyboard in Resources */,
+				646D31EE243A2F0A00BCD349 /* CartItemCell.xib in Resources */,
+				646D31E2243A2ECC00BCD349 /* CategoryCell.xib in Resources */,
+				646D3207243A337B00BCD349 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +408,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646D318A243A283600BCD349 /* ViewController.swift in Sources */,
+				646D31C6243A2CC400BCD349 /* StripeCart.swift in Sources */,
+				646D31D8243A2D9900BCD349 /* CheckoutVC.swift in Sources */,
+				646D31DA243A2DB400BCD349 /* ProductsVC.swift in Sources */,
+				646D31CA243A2CF800BCD349 /* UserService.swift in Sources */,
+				646D31EB243A2F0A00BCD349 /* CartItemCell.swift in Sources */,
+				646D31F6243A2F6100BCD349 /* Product.swift in Sources */,
+				646D31E5243A2EE500BCD349 /* ProductCell.swift in Sources */,
+				646D31FC243A2FA500BCD349 /* Extensions.swift in Sources */,
+				646D31D4243A2D6A00BCD349 /* LoginVC.swift in Sources */,
+				646D31F3243A2F5000BCD349 /* Category.swift in Sources */,
+				646D31CD243A2D2000BCD349 /* ForgotPasswordVC.swift in Sources */,
+				646D318A243A283600BCD349 /* HomeVC.swift in Sources */,
+				646D3202243A2FD100BCD349 /* Firebase+Utils.swift in Sources */,
 				646D3188243A283600BCD349 /* AppDelegate.swift in Sources */,
+				646D31D6243A2D8400BCD349 /* RegisterVC.swift in Sources */,
+				646D31C8243A2CE200BCD349 /* StripeApi.swift in Sources */,
+				646D31FF243A2FB600BCD349 /* Constants.swift in Sources */,
+				646D31F9243A2F6C00BCD349 /* User.swift in Sources */,
+				646D31F0243A2F3500BCD349 /* RoundedViews.swift in Sources */,
+				646D31D1243A2D4E00BCD349 /* ProductDetailVC.swift in Sources */,
+				646D31DF243A2ECC00BCD349 /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646D319C243A2A8100BCD349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646D3203243A2FD100BCD349 /* Firebase+Utils.swift in Sources */,
+				646D31C4243A2C7100BCD349 /* AddEditProductsVC.swift in Sources */,
+				646D31F4243A2F5000BCD349 /* Category.swift in Sources */,
+				646D31C2243A2C4700BCD349 /* AddEditCategoryVC.swift in Sources */,
+				646D31A5243A2A8100BCD349 /* AdminHomeVC.swift in Sources */,
+				646D31F1243A2F3500BCD349 /* RoundedViews.swift in Sources */,
+				646D31F7243A2F6100BCD349 /* Product.swift in Sources */,
+				646D31C0243A2C2300BCD349 /* AdminProductsVC.swift in Sources */,
+				646D31A3243A2A8100BCD349 /* AppDelegate.swift in Sources */,
+				646D31FD243A2FA500BCD349 /* Extensions.swift in Sources */,
+				646D31FA243A2F6C00BCD349 /* User.swift in Sources */,
+				646D31E6243A2EE500BCD349 /* ProductCell.swift in Sources */,
+				646D3200243A2FB600BCD349 /* Constants.swift in Sources */,
+				646D31EC243A2F0A00BCD349 /* CartItemCell.swift in Sources */,
+				646D31E0243A2ECC00BCD349 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +469,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				646D3191243A283C00BCD349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		646D31A6243A2A8100BCD349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646D31A7243A2A8100BCD349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		646D31AB243A2A8400BCD349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646D31AC243A2A8400BCD349 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -284,6 +614,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "photo-hut/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +632,48 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "photo-hut/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hredoy.photo-hut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		646D31B0243A2A8400BCD349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-hut-admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hredoy.photo-hut-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		646D31B1243A2A8400BCD349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-hut-admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hredoy.photo-hut-admin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,6 +697,15 @@
 			buildConfigurations = (
 				646D3197243A283C00BCD349 /* Debug */,
 				646D3198243A283C00BCD349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646D31AF243A2A8400BCD349 /* Build configuration list for PBXNativeTarget "photo-hut-admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646D31B0243A2A8400BCD349 /* Debug */,
+				646D31B1243A2A8400BCD349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
